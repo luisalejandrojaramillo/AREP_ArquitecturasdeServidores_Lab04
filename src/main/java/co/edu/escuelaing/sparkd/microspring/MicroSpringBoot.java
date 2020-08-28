@@ -19,5 +19,5 @@ public class MicroSpringBoot {
             Logger.getLogger(MicroSpringBoot.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
+
 }
