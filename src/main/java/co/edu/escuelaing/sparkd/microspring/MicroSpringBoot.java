@@ -7,7 +7,6 @@ import java.util.logging.Logger;
 
 public class MicroSpringBoot {
 
-
     public static void main(String[] args) {
 
         args = new String[]{"co.edu.escuelaing.sparkd.microspring.HelloController"};
@@ -20,6 +19,5 @@ public class MicroSpringBoot {
             Logger.getLogger(MicroSpringBoot.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
-
+    
 }
