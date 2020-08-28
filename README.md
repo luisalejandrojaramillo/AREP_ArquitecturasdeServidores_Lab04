@@ -28,7 +28,7 @@ http://localhost:36000/Apps/home
 http://localhost:36000/Apps/pi
 http://localhost:36000/Apps/pag
 ```
-
+![](img/localhostpag.PNG)
 
 ## Taller de Arquitecturas de Servidores de Aplicaciones, Meta protocolos de objetos, Patrón IoC, Reflexión
 ### Descripción
@@ -51,7 +51,6 @@ public class HelloController {
 	}
 }
 ```
-
 ## Entregables
 1. El código fuente del proyecto y el ciclo de vida debe ser estructurado y manejado usando Maven.
 
