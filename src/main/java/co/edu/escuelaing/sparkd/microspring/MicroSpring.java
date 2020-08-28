@@ -29,7 +29,8 @@ public class MicroSpring {
             if (m.isAnnotationPresent(RequestMapping.class)) {
                 System.out.println("Si está anotado con @RequestMapping");
                 try {
-                    beans.put("Get the value of the parameter", m);
+                    RequestMapping rm = m.getAnnotation(RequestMapping.class);
+                    beans.put(rm.value(), m);
                     mapped++;
                 } catch (Throwable ex) {
                     System.out.printf("Test %s failed: %s %n", m, ex.getCause());

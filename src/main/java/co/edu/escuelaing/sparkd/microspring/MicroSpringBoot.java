@@ -10,7 +10,7 @@ public class MicroSpringBoot {
 
     public static void main(String[] args) {
 
-        args[0]="co.edu.escuelaing.sparkd.HelloController";
+        args = new String[]{"co.edu.escuelaing.sparkd.microspring.HelloController"};
         try {
             MicroSpring iocServer = new MicroSpring();
             iocServer.start(args);
