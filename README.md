@@ -1,4 +1,34 @@
 # AREP_ArquitecturasdeServidores_Lab04
+## Requisitos
+* Git
+* Java 8
+* Maven
+
+## Instalación
+1. Abrimos una terminal
+2. Clonamos el repositorio
+```
+https://github.com/luisalejandrojaramillo/AREP_ArquitecturasdeServidores_Lab04
+```
+3. Entramos al directorio
+```
+AREP_ArquitecturasdeServidores_Lab04
+```
+4. Empaquetamos
+```
+mvn package
+```
+5. Ejecutamos 
+```
+java -cp target/classes co.edu.escuelaing.sparkd.microspring.MicroSpringBoot
+```
+6. Probamos en el navegador
+```
+http://localhost:36000/Apps/home
+http://localhost:36000/Apps/pi
+http://localhost:36000/Apps/pag
+```
+
 
 ## Taller de Arquitecturas de Servidores de Aplicaciones, Meta protocolos de objetos, Patrón IoC, Reflexión
 ### Descripción
