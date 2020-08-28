@@ -8,8 +8,9 @@ Para este taller desarrolle un prototipo mínimo que demuestre capcidades reflex
 
 ### Sugerencia
 1.Cargue el POJO desde la línea de comandos , de manera similar al framework de TEST. Es decir pásela como parámetro cuando invoke el framework. Ejemplo de invocación:
-
+```
 java -cp target/classes co.edu.escuelaing.reflexionlab.MicroSpringBoot co.edu.escuelaing.reflexionlab.FirstWebService
+```
 2. Atienda la anotación @ResuestMapping publicando el servicio en la URI indicada, limítelo a tipos de retorno String,  ejemplo:
 ```
 public class HelloController {
